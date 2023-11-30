@@ -10,4 +10,10 @@ export const ButtonContainer = styled.button`
     flex: 1;
     color: #444444;
     margin: 3px;
+
+    &:hover {
+        background-color: #4444;
+        transition: .3s all ease-out;
+        opacity: 0.6
+    }
 `
